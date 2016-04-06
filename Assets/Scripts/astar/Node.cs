@@ -4,13 +4,13 @@ using System.Collections;
 public class Node
 {
     //列号
-    public int x;
+    public int x = 0;
     //行号
-    public int y;
+    public int y = 0;
     //权重
-    public int f; // f = gone + heuristic
-    public int g;
-    public int h;
+    public float f; // f = gone + heuristic
+    public float g;
+    public float h;
     //是否是障碍
     public bool isBlock = false;
     //显示对象
